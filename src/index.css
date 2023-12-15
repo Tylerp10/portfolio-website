@@ -403,8 +403,13 @@ body{
 
 .project-item img {
     height: 300px;
+    width: 500px;
     border-radius: 20px;
     margin: auto;
+}
+
+.weather-app-img {
+    width: 500px;
 }
 
 .project-p {
