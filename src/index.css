@@ -286,7 +286,7 @@ body{
     color: darkgrey;
 }
 .buttons button:hover{
-    font-size: 1.45rem;
+    transform: scale(1.15);
     transition: 300ms;
 }
 
@@ -340,7 +340,7 @@ body{
         gap: 30px;
     }
     .about-item {
-        line-height: 30px;
+        line-height: 27px;
     }
 }
 

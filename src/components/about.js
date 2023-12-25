@@ -28,7 +28,7 @@ export default function About() {
                 <div className="buttons">
                     <button className={toggleSchoolClass} onClick={toggleSchool}>Education</button>
                     <button className={toggleVolleyballClass} onClick={toggleVolleyball}>Volleyball</button>
-                    <button className={toggleHobbiesClass} onClick={toggleHobbies}>Hobbies</button>
+                    <button className={toggleHobbiesClass} onClick={toggleHobbies}>Interests</button>
                 </div>
             <div className="about">
                 <img className="tyler-pic" src={tyler} alt="Tyler"></img>
@@ -47,20 +47,21 @@ export default function About() {
                     <div className={`about-box ${toggleVolleyballClass}`}>
                         <h4>Volleyball</h4>
                         <ul>
-                            <li>Competitive volleyball for 10 years</li>
-                            <li>Played at volleyball powerhouse McMaster University</li>
-                            <li>Won various team and individual awards</li>
-                            <li>Part time coach</li>
+                            <li>Competitive/Varsity volleyball for 10 years</li>
+                            <li>Received multiple skill achievement awards</li>
+                            <li>A member of leadership council</li>
+                            <li>Assist coaching a high performance club volleyball team</li>
                         </ul>
                     </div>
                 </div>
 
                 <div className="about-item">
                     <div className={`about-box ${toggleHobbiesClass}`}>
-                        <h4>Hobbies</h4>
+                        <h4>Interests</h4>
                         <ul>
-                            <li>I love playing all kinds of sports</li>
+                            <li>Love playing challenging games</li>
                             <li>I enjoy hiking and adventures</li>
+                            <li>Playing beach volleyball and basektball</li>
                             <li>Reading and learning new things</li>
                         </ul>
                     </div>

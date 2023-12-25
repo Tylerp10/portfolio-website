@@ -12,7 +12,7 @@ export default function Intro() {
                     <div className="intro-message">
                         <span>I am a </span>
                         <div className="flashmessage">
-                            <div className="volleyball">Volleyball Player</div>
+                            <div className="volleyball">Varsity Athlete</div>
                             <div className="web-dev">Web Developer</div>
                         </div>
                     </div>
