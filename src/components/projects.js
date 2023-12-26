@@ -1,5 +1,5 @@
 import React from "react";
-import Calculator from "../images/calculator.png"
+import Recipes from "../images/recpipes.png"
 import WeatherApp from "../images/weather-app.png"
 
 export default function Projects() {
@@ -8,19 +8,19 @@ export default function Projects() {
             <h3>Projects</h3>
                 <div className="project-item">
                     <div className="project-p">
-                    <h4>Calculator</h4>
-                        A fully functioning calculator app that can evaluate any expression with the 4 basic mathematical operators. A clean look that works smoothly on both desktop and mobile devices.
+                    <h4>Recipes</h4>
+                        A recipe website that can search for any food/ingredient and provides over 300 meals to browse through. Each recipe displays the type of meal, instructions, and a video tutorial.  
                     <div className="project-btns">
                         <button
-                            onClick={()=> window.open("https://capable-paprenjak-f40b6a.netlify.app")}
+                            onClick={()=> window.open("https://tyler-recipes.netlify.app")}
                             className="demo">Live demo</button>
                         <button
-                            onClick={() =>window.open("https://github.com/Tylerp10/calculator")}
+                            onClick={() =>window.open("https://github.com/Tylerp10/recipes")}
                             className="view-code">View code
                         </button>
                     </div>
                     </div>
-                    <img alt="calculator website" src={Calculator}></img>
+                    <img alt="recipes website" src={Recipes}></img>
                 </div>
 
                 <div className="project-item">
