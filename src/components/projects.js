@@ -1,5 +1,5 @@
 import React from "react";
-import Recipes from "../images/recpipes.png"
+import Blackjack from "../images/blackjack.png"
 import WeatherApp from "../images/weather-app.png"
 
 export default function Projects() {
@@ -9,18 +9,18 @@ export default function Projects() {
                 <div className="project-item">
                     <div className="project-p">
                     <h4>Recipes</h4>
-                        A recipe website that can search for any food/ingredient and provides over 300 meals to browse through. Each recipe displays the type of meal, instructions, and a video tutorial.  
+                        A full-stack blackjack game that includes a user signup, sign in, and game component. Users must register to play and their information, such as name, email, password and balance are stored in a Mongo database. 
                     <div className="project-btns">
                         <button
-                            onClick={()=> window.open("https://tyler-recipes.netlify.app")}
+                            onClick={()=> window.open("https://tyler-blackjack.netlify.app")}
                             className="demo">Live demo</button>
                         <button
-                            onClick={() =>window.open("https://github.com/Tylerp10/recipes")}
+                            onClick={() =>window.open("https://github.com/Tylerp10/blackjack")}
                             className="view-code">View code
                         </button>
                     </div>
                     </div>
-                    <img alt="recipes website" src={Recipes}></img>
+                    <img alt="recipes website" src={Blackjack}></img>
                 </div>
 
                 <div className="project-item">
