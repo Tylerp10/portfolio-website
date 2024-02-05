@@ -8,7 +8,7 @@ export default function Projects() {
             <h3>Projects</h3>
                 <div className="project-item">
                     <div className="project-p">
-                    <h4>Recipes</h4>
+                    <h4>Blackjack</h4>
                         A full-stack blackjack game that includes a user signup, sign in, and game component. Users must register to play and their information, such as name, email, password and balance are stored in a Mongo database. 
                     <div className="project-btns">
                         <button
