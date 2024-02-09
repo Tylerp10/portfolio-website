@@ -98,13 +98,10 @@ body{
     transition: 500ms;
 }
 
+
 @media screen and (min-width: 1000px){
     .header-right li:hover{
-        background-color: rgba(0, 0, 0, 0.2);
-        border-radius: 15px;
-        box-shadow: 0px 0px 5px 1px;
-        padding: 10px;
-        font-size: 1.55rem;
+        transform: scale(1.25);
         transition: 500ms;
         transition-timing-function: ease-out;
     }
@@ -499,20 +496,41 @@ body{
     padding: 35px 0px;
 }
 
+figure h4{
+    text-align: center;
+    position: relative;
+    top: -75px;
+    opacity: 0;
+    transform: scale(1.2);
+    font-weight: 500;
+    transition: 250ms;
+}
+
+figure:hover h4{
+    transition: 250ms;
+    opacity: 1;
+}
+
+figure:hover img {
+    transition: 250ms;
+    opacity: 20%;
+}
+
 .skills-container img{
     height: 100px;
     width: 100px;
     background-color: white;
     border-radius: 20%;
+    transition: 250ms;
     opacity: 75%;
 }
-
 
 @media screen and (max-width: 971px) {
     .skills-container{
         width: 60%;
     }
 }
+
 
 
 /* CONTACT----------------- */
