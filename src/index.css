@@ -436,13 +436,13 @@ body{
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     border: 1px solid white;
-    transition: 500ms;
+    transition: 200ms;
 }
 
 .project-btns button:hover {
     opacity: 50%;
-    font-size: 1.1rem;
-    transition: 500ms;
+    cursor: pointer;
+    transition: 200ms;
 }
 
 @media screen and (max-width: 950px) {

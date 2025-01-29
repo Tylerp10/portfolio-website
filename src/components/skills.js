@@ -9,12 +9,18 @@ import VScodeimg from "../images/vscode.png"
 import GITimg from "../images/git.png"
 import Figmaimg from "../images/figma.png"
 import Bootstrap from "../images/bootstrap.png"
+import Python from "../images/python.png"
 
 export default function Skills() {
     return (
         <div id="skills" className="skills">
             <h3>Skills</h3>
             <div className="skills-container">
+
+                <figure>
+                    <img alt="Python" src={Python}></img>
+                        <h4>Python</h4>
+                </figure>
 
                 <figure>
                     <img alt="HTML" src={HTMLimg}></img>
